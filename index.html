@@ -37,6 +37,21 @@
         </section>
     </header>
 
+             <!-- Mobile Header -->
+             <div class="mobile-header-container">
+                <div class="brandlogo-name-cont">
+                    <div class="brandlogo-container">
+                        <img src="./Images/brandlogo.svg">
+                    </div>
+                    <div class="brand-container">
+                        <h4 class="brand-name">NIYADESIGN</h4>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <img src="./Images/MenuOutline-mobile.svg">
+                </div>
+             </div>
+
               <!-- Hero section -->
     <section class="hero-section">
         <div class="heroleft-container">
@@ -45,7 +60,8 @@
               <h1 class="my-name">Hello, I'm Olabisi</h1>
            </div>
            <div>
-              <h3 class="profession">FULLSTACK DEVELOPER</h3>
+              <!-- <h3 class="profession">A FULLSTACK DEVELOPER</h3> -->
+              <h3 class="profession">A FULLSTACK DEVELOPER</h3>
            </div> <br/>
            <div class="hero-about-container">
               <p>A 2-years experienced fullstack developer proficient in HTML, CSS, JS and Nodes . I specialize in creating and maintaining websites and software applications</p>
@@ -57,12 +73,26 @@
        </div>
 
        <div class="righthero-container">
-           <div class="Image-container">
+           <div class="DesktopImage-container">
             <img src="./Images/myself1.png" alt="Olabisi">
            </div>
            <div class="full-circle"></div>
        </div>
 
+                 <!-- Hero image for Tablet -->
+                 <div class="righthero-container-tablet">
+                    <div class="TabletImage-container">
+                     <img src="./Images/myself-tablet.svg" alt="Olabisi">
+                    </div>
+                    <div class="full-circle"></div>
+
+                <!-- Hero image for mobile -->
+       <div class="righthero-container-mobile">
+        <div class="MobileImage-container">
+         <img src="./Images/myself-mobile.svg" alt="Olabisi">
+        </div>
+        <div class="full-circle"></div>
+    </div>
     </section>
 
                 <!-- Service section -->
@@ -84,7 +114,7 @@
                     <img src="./Images/uiux.png">
                 </div>
                 <div class="first-card-name">
-                    <H4>UI / UX Design</H4>
+                    <H4 class="service-h4">UI / UX Design</H4>
                 </div> 
                 <div class="des-1">
                     <p>Mobile App</p>
@@ -99,13 +129,13 @@
                         <img src="./Images/Web.png">
                     </div>
                     <div class="second-card-name">
-                        <H4>Web Development</H4>
+                        <H4 class="service-h4" >Web Development</H4>
                     </div> 
                     <div class="descrip-1">
                         <p>E-Commerce</p>
                     </div> 
                     <div class="descrip-2">
-                        <p>Web / App Development</p>
+                        <p>App Development</p>
                     </div>
             </div>
 
@@ -114,7 +144,7 @@
                     <img src="./Images/Graphic designer`s workspace.png">
                 </div>
                 <div class="Third-card-name">
-                    <H4>Graphic Design</H4>
+                    <H4 class="service-h4" >Graphic Design</H4>
                 </div> 
                 <div class="description-1">
                     <p>Logo Design</p>
@@ -132,16 +162,54 @@
                 <h5 class="featured-project-text">Featured Project</h5>
             </div>
             <div class="Project-image-container">
-                <div class="Kwik-image-container">
-                    <img src="./Images/Kwik invoice2.svg" alt="Kwikinvoice">
-                </div>
+                <a href="https://www.behance.net/gallery/170834915/Kwikinvoice" target="_blank" loading="lazy">
+                    <div class="Homeflow-image-container">
+                        <img src="./Images/newnew1.svg" alt="Kwikinvoice">
+                    </div>
+                </a>
                 <div class="Homeflow-image-container">
-                    <img src="./Images/Homeflow2.svg" alt="Homeflow">
+                    <img src="./Images/Homeflow2.svg" alt="Homeflow" loading="lazy">
                 </div>
-                <div class="Pickcash-image-container">
-                    <img src="./Images/Pickcash2.svg" alt="Pickcash">
-                </div>
+                <a href="https://www.behance.net/gallery/167191741/Pickcash-Giving-Borrowing-a-Prestige" target="_blank">
+                    <div class="Pickcash-image-container">
+                        <img src="./Images/Pickcash2.svg" alt="Pickcash" loading="lazy">
+                    </div>
+                </a>
             </div>
+
+                        <!-- Hide featured project for tablet -->
+            <div class="Tablet-Project-image-container">
+                <a href="https://www.behance.net/gallery/170834915/Kwikinvoice" target="_blank" loading="lazy">
+                    <div class="Homeflow-image-container">
+                        <img src="./Images/Kwik invoice-tablet.svg" alt="Kwikinvoice">
+                    </div>
+                </a>
+                <div class="Homeflow-image-container">
+                    <img src="./Images/Homeflow-tablet.svg" alt="Homeflow" loading="lazy">
+                </div>
+                <a href="https://www.behance.net/gallery/167191741/Pickcash-Giving-Borrowing-a-Prestige" target="_blank">
+                    <div class="Pickcash-image-container">
+                        <img src="./Images/Pickcash-tablet.svg" alt="Pickcash" loading="lazy">
+                    </div>
+                </a>
+            </div>
+
+                       <!-- Hide featured project for mobile -->
+                       <div class="Mobile-Project-image-container">
+                        <a href="https://www.behance.net/gallery/170834915/Kwikinvoice" target="_blank">
+                            <div class="Homeflow-image-container">
+                                <img src="./Images/Kwik invoice mobile.svg" alt="Kwikinvoice" loading="lazy" >
+                            </div>
+                        </a>
+                        <div class="Homeflow-image-container">
+                            <img src="./Images/Homeflow mobile.svg" alt="Homeflow" loading="lazy" >
+                        </div>
+                        <a href="https://www.behance.net/gallery/167191741/Pickcash-Giving-Borrowing-a-Prestige" target="_blank">
+                            <div class="Pickcash-image-container">
+                                <img src="./Images/Pickcash mobile.svg" alt="Pickcash" loading="lazy">
+                            </div>
+                        </a>
+                    </div>
     </section>
 
                 <!-- Technology section -->
@@ -207,7 +275,7 @@
                         <p>Designer</p>
                     </div>
                     <div class="frank-description">
-                        <p>Olabisi has an incredible talent for taking abstract concepts and turning them into practical, user-centric designs. She has a gift for simplifying complex processes...</p>
+                        <p>Olabisi has an incredible talent for taking abstract concepts and turning them into practical, user-centric designs. She has a gift for simplifying complex...</p>
                     </div>
                 </div>
 
@@ -242,7 +310,7 @@
         <div class="buttom-container">
             <div class="left-contact-container">
                 <div class="left-image-cont">
-                    <img src="./Images/customer support.png" alt="Customer Support">
+                    <!-- <img src="./Images/customer support.png" alt="Customer Support"> -->
                 </div>
                 <div class="call-mail-container">
                     <div class="call-cont">
@@ -252,6 +320,7 @@
                     </div>
                     <div class="mail-cont">
                         <div>
+                            <a href="mailto:Niyadesignanddev@gmail.com" ></a>
                             <img src="./Images/Mail.png">
                         </div>
                         <div>
@@ -263,23 +332,23 @@
                 </div>
             </div>
             <div class="right-form-cont">
-                <form id="contactform" class="form" action="/submit_form">
+                <form id="contactform" class="form" autocomplete="on" action="/submit_form">
                     <div class="first-last-name-cont">
                         <div class="first-name-cont">
-                            <input class="first-name-input" placeholder="First Name" type="text" id="name" name="name" required/>
+                            <input class="first-name-input" autocomplete="on" placeholder="First Name" type="text" id="name" name="name" required/>
                         </div> 
                         <div class="last-name-cont">
-                            <input class="last-name-input" placeholder="Last Name" type="text" id="name" name="name" required/>
+                            <input class="last-name-input"  autocomplete="on"placeholder="Last Name" type="text" id="last-name" name="name" required/>
                         </div>
                     </div> 
                     <div class="email-container">
-                        <input class="email-input" placeholder="Email Address" type="email" id="email" name="email" required/>
+                        <input class="email-input" autocomplete="on" placeholder="Email Address" type="email" id="email" name="email" required/>
                     </div> 
                     <div class="message-input-cont">
                         <textarea class="message-input" rows="4" cols="50" placeholder="Type Your Message.." id="message" name="message"></textarea> 
                     </div>
                     <div class="send-button-container">
-                        <button type="submit" class="send-button">Send</button>
+                        <button type="submit" id="submit-button" class="send-button">Send</button>
                     </div>
                 </form>
             </div>
@@ -298,17 +367,18 @@
              <div class="behance-cont">
                 <img src="./Images/Behance.png">
              </div>
-        </div>
+        </div> 
+
         <div class="made-by-cont">
                 <div class="year-cont">
                     <div>
                         <p>@2024. Made by</p> 
                     </div>
+                </div>
+                <div class="myname-cont">
                     <div>
                         <img src="./Images/Love.png">
                     </div>
-                </div>
-                <div class="myname-cont">
                     <div>
                         <p>Olabisi Ajayi</p>
                     </div>
@@ -319,5 +389,27 @@
         </div>
     </section>
 
+          <!-- Social-media-hover -->
+        <div class="left-socialmedia-cont">
+            <a href="https://www.linkedin.com/in/olabisi-ajayi-8b07aa1a1/" >
+                <div class="slinkedin-cont">
+                    <img src="./Images/LinkedIn.png">
+                    <p>LINKEDIN</p>
+                 </div>
+            </a>
+            <a href="https://twitter.com/home" >
+                <div class="stwitter-cont">
+                    <img src="./Images/Twitter.png">
+                    <p>TWITTER</p>
+                 </div>
+            </a>
+            <a href="https://www.behance.net/olabisiajayi" >
+                <div class="sbehance-cont">
+                    <a href="https://www.behance.net/olabisiajayi" ></a>
+                   <img src="./Images/Behance.png">
+                   <p>BEHANCE</p>
+                </div>
+            </a>
+       </div>
 </body>
 </html>
