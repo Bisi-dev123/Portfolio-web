@@ -364,7 +364,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 32px;
-  /* column-gap: 50px; */
 }
 
 .html5-cont, .js-cont, .css3-cont, .react-cont, .figma-cont {
@@ -444,7 +443,7 @@
   color: #d0d9e0;
 }
 
-.buttom-container {
+.bottom-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -786,6 +785,7 @@
     row-gap: 4rem;
     justify-content: center;
     align-items: center;
+    border: 2px solid yellow;
   }
 
   .project-image-container {
@@ -805,7 +805,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    border: 2px solid yellow;
   }
 
   .image-cont-description {
@@ -821,13 +820,14 @@
   .kwikinvoice-image-container {
     width: 100%;
     height: auto;
-    padding: 9rem;
-    background-image: url(./Images/Kwik\ invoice-tablet.svg);
+    padding: 12rem;
+    background-image: url(./Images/Ohmyfood\ thumbnail.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
     display: block;
+    border: 2px solid yellow;
   }
 
   .kwikinvoice-image-container a {
@@ -840,7 +840,7 @@
     width: 100%;
     height: auto;
     padding: 9rem;
-    background-image: url(./Images/Homeflow-tablet.svg);
+    background-image: url(./Images/Ohmyfood\ thumbnail2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -852,7 +852,7 @@
     width: 100%;
     height: auto;
     padding: 9rem;
-    background-image: url(./Images/Pickcash-tablet.svg);
+    background-image: url(./Images/Ohmyfood\ thumbnail2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -972,7 +972,7 @@
     row-gap: 4px;
   }
 
-  .buttom-container {
+  .bottom-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -1249,7 +1249,7 @@
     width: 100%;
     height: auto;
     padding: 8rem;
-    background-image: url(./Images/Kwik\ invoice\ mobile.svg);
+    background-image: url(./Images/Ohmyfood\ thumbnail.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1267,7 +1267,7 @@
     width: 100%;
     height: auto;
     padding: 8rem;
-    background-image: url(./Images/Homeflow\ mobile.svg);
+    background-image: url(./Images/Ohmyfood\ thumbnail2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1279,7 +1279,7 @@
     width: 100%;
     height: auto;
     padding: 8rem;
-    background-image: url(./Images/Pickcash\ mobile.svg);
+    background-image: url(./Images/Ohmyfood\ thumbnail2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1435,7 +1435,7 @@
     text-align: center;
   }
 
-  .buttom-container {
+  .bottom-container {
     width: 100%;
     height: auto;
     display: flex;
